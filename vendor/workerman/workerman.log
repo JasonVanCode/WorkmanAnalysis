@@ -1,0 +1,329 @@
+2021-01-18 09:52:38 pid:1809 Workerman[http.php] start in DEBUG mode
+2021-01-18 09:52:39 pid:1809 Workerman[http.php] stopping ...
+2021-01-18 09:52:39 pid:1809 Workerman[http.php] has been stopped
+2021-01-18 09:52:41 pid:1820 Workerman[http.php] start in DEBUG mode
+2021-01-18 09:53:11 pid:1820 Workerman[http.php] stopping ...
+2021-01-18 09:53:11 pid:1820 Workerman[http.php] has been stopped
+2021-01-19 02:09:50 pid:32586 Workerman[http.php] start in DEBUG mode
+2021-01-19 02:10:06 pid:32628 Workerman[http.php] reload 
+2021-01-19 02:10:06 pid:32586 Workerman[http.php] reloading
+2021-01-19 02:10:36 pid:32586 Workerman[http.php] stopping ...
+2021-01-19 02:10:36 pid:32586 Workerman[http.php] has been stopped
+2021-01-19 02:10:37 pid:32682 Workerman[http.php] start in DEBUG mode
+2021-01-19 02:10:41 pid:32693 Workerman[http.php] reload 
+2021-01-19 02:10:41 pid:32682 Workerman[http.php] reloading
+2021-01-19 02:11:49 pid:32682 Workerman[http.php] stopping ...
+2021-01-19 02:11:49 pid:32682 Workerman[http.php] has been stopped
+2021-01-19 02:11:50 pid:339 Workerman[http.php] start in DEBUG mode
+2021-01-19 02:11:53 pid:349 Workerman[http.php] reload 
+2021-01-19 02:11:53 pid:339 Workerman[http.php] reloading
+2021-01-19 02:12:38 pid:339 Workerman[http.php] stopping ...
+2021-01-19 02:12:38 pid:339 Workerman[http.php] has been stopped
+2021-01-19 02:12:39 pid:457 Workerman[http.php] start in DEBUG mode
+2021-01-19 02:12:45 pid:471 Workerman[http.php] reload 
+2021-01-19 02:12:45 pid:457 Workerman[http.php] reloading
+2021-01-19 02:53:17 pid:457 Workerman[http.php] stopping ...
+2021-01-19 02:53:17 pid:457 Workerman[http.php] has been stopped
+2021-01-19 02:53:19 pid:4256 Workerman[http.php] start in DEBUG mode
+2021-01-19 03:25:13 pid:4256 Workerman[http.php] stopping ...
+2021-01-19 03:25:13 pid:4256 Workerman[http.php] has been stopped
+2021-01-19 03:25:15 pid:7228 Workerman[http.php] start in DEBUG mode
+2021-01-19 03:25:42 pid:7228 Workerman[http.php] stopping ...
+2021-01-19 03:25:42 pid:7228 Workerman[http.php] has been stopped
+2021-01-19 05:05:52 pid:16391 Workerman[http.php] start in DEBUG mode
+2021-01-19 05:06:43 pid:16391 Workerman[http.php] stopping ...
+2021-01-19 05:06:43 pid:16391 Workerman[http.php] has been stopped
+2021-01-19 05:16:25 pid:17373 Workerman[http.php] start in DEBUG mode
+2021-01-19 05:17:42 pid:17373 Workerman[http.php] stopping ...
+2021-01-19 05:17:42 pid:17373 Workerman[http.php] has been stopped
+2021-01-19 05:24:45 pid:18138 Workerman[http.php] start in DEBUG mode
+2021-01-19 05:26:38 pid:18138 Workerman[http.php] stopping ...
+2021-01-19 05:26:38 pid:18138 Workerman[http.php] has been stopped
+2021-01-19 05:26:40 pid:18326 Workerman[http.php] start in DEBUG mode
+2021-01-19 05:36:18 pid:18326 Workerman[http.php] stopping ...
+2021-01-19 05:36:18 pid:18326 Workerman[http.php] has been stopped
+2021-01-19 05:36:20 pid:19210 Workerman[http.php] start in DEBUG mode
+2021-01-19 05:40:03 pid:19210 Workerman[http.php] stopping ...
+2021-01-19 05:40:03 pid:19210 Workerman[http.php] has been stopped
+2021-01-19 05:40:04 pid:19555 Workerman[http.php] start in DEBUG mode
+2021-01-19 05:42:29 pid:19555 Workerman[http.php] stopping ...
+2021-01-19 05:42:29 pid:19555 Workerman[http.php] has been stopped
+2021-01-19 05:47:13 pid:20214 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:01:18 pid:20214 Workerman[http.php] stopping ...
+2021-01-19 06:01:18 pid:20214 Workerman[http.php] has been stopped
+2021-01-19 06:01:19 pid:21525 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:02:18 pid:21525 Workerman[http.php] stopping ...
+2021-01-19 06:02:18 pid:21525 Workerman[http.php] has been stopped
+2021-01-19 06:02:19 pid:21622 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:02:21 pid:21622 Workerman[http.php] stopping ...
+2021-01-19 06:02:21 pid:21622 Workerman[http.php] has been stopped
+2021-01-19 06:02:57 pid:21682 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:03:34 pid:21682 Workerman[http.php] stopping ...
+2021-01-19 06:03:34 pid:21682 Workerman[http.php] has been stopped
+2021-01-19 06:03:36 pid:21748 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:03:47 pid:21748 Workerman[http.php] stopping ...
+2021-01-19 06:03:47 pid:21748 Workerman[http.php] has been stopped
+2021-01-19 06:03:50 pid:21776 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:05:05 pid:21776 Workerman[http.php] stopping ...
+2021-01-19 06:05:05 pid:21776 Workerman[http.php] has been stopped
+2021-01-19 06:12:04 pid:22550 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:12:04 pid:22550 Workerman[http.php] stopping ...
+2021-01-19 06:12:04 pid:22550 Workerman[http.php] has been stopped
+2021-01-19 06:15:04 pid:22833 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:15:04 pid:22833 Workerman[http.php] stopping ...
+2021-01-19 06:15:04 pid:22833 Workerman[http.php] has been stopped
+2021-01-19 06:24:40 pid:23718 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:24:41 pid:23718 Workerman[http.php] stopping ...
+2021-01-19 06:24:41 pid:23718 Workerman[http.php] has been stopped
+2021-01-19 06:25:14 pid:23779 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:25:20 pid:23779 Workerman[http.php] stopping ...
+2021-01-19 06:25:20 pid:23779 Workerman[http.php] has been stopped
+2021-01-19 06:26:05 pid:23862 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:26:13 pid:23862 Workerman[http.php] stopping ...
+2021-01-19 06:26:13 pid:23862 Workerman[http.php] has been stopped
+2021-01-19 06:27:07 pid:23967 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:27:11 pid:23967 Workerman[http.php] stopping ...
+2021-01-19 06:27:11 pid:23967 Workerman[http.php] has been stopped
+2021-01-19 06:27:22 pid:23995 Workerman[http.php] start in DEBUG mode
+2021-01-19 06:27:24 pid:23995 Workerman[http.php] stopping ...
+2021-01-19 06:27:24 pid:23995 Workerman[http.php] has been stopped
+2021-01-19 07:20:26 pid:28884 Workerman[http.php] start in DEBUG mode
+2021-01-19 07:20:26 pid:28884 Workerman[http.php] stopping ...
+2021-01-19 07:20:26 pid:28884 Workerman[http.php] has been stopped
+2021-01-19 07:25:04 pid:29318 Workerman[http.php] start in DEBUG mode
+2021-01-19 07:25:06 pid:29318 Workerman[http.php] stopping ...
+2021-01-19 07:25:06 pid:29318 Workerman[http.php] has been stopped
+2021-01-19 07:28:16 pid:29620 Workerman[http.php] start in DEBUG mode
+2021-01-19 07:28:16 pid:29620 Workerman[http.php] stopping ...
+2021-01-19 07:28:16 pid:29620 Workerman[http.php] has been stopped
+2021-01-19 07:31:03 pid:29881 Workerman[http.php] start in DEBUG mode
+2021-01-19 07:31:04 pid:29881 Workerman[http.php] stopping ...
+2021-01-19 07:31:04 pid:29881 Workerman[http.php] has been stopped
+2021-01-19 08:05:06 pid:613 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:05:18 pid:645 Workerman[http.php] reload 
+2021-01-19 08:05:18 pid:613 Workerman[http.php] reloading
+2021-01-19 08:05:45 pid:613 Workerman[http.php] stopping ...
+2021-01-19 08:05:45 pid:613 Workerman[http.php] has been stopped
+2021-01-19 08:05:55 pid:713 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:06:00 pid:736 Workerman[http.php] reload 
+2021-01-19 08:06:00 pid:713 Workerman[http.php] reloading
+2021-01-19 08:08:31 pid:713 Workerman[http.php] stopping ...
+2021-01-19 08:08:31 pid:713 Workerman[http.php] has been stopped
+2021-01-19 08:08:33 pid:978 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:08:37 pid:986 Workerman[http.php] reload 
+2021-01-19 08:08:37 pid:978 Workerman[http.php] reloading
+2021-01-19 08:13:34 pid:978 Workerman[http.php] stopping ...
+2021-01-19 08:13:34 pid:978 Workerman[http.php] has been stopped
+2021-01-19 08:13:36 pid:1483 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:13:41 pid:1497 Workerman[http.php] reload 
+2021-01-19 08:13:41 pid:1483 Workerman[http.php] reloading
+2021-01-19 08:15:05 pid:1483 Workerman[http.php] stopping ...
+2021-01-19 08:15:05 pid:1483 Workerman[http.php] has been stopped
+2021-01-19 08:15:06 pid:1634 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:15:10 pid:1645 Workerman[http.php] reload 
+2021-01-19 08:15:10 pid:1634 Workerman[http.php] reloading
+2021-01-19 08:29:41 pid:1634 Workerman[http.php] stopping ...
+2021-01-19 08:29:41 pid:1634 Workerman[http.php] has been stopped
+2021-01-19 08:29:42 pid:3007 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:29:46 pid:3018 Workerman[http.php] reload 
+2021-01-19 08:29:46 pid:3007 Workerman[http.php] reloading
+2021-01-19 08:30:06 pid:3007 Workerman[http.php] stopping ...
+2021-01-19 08:30:06 pid:3007 Workerman[http.php] has been stopped
+2021-01-19 08:30:07 pid:3056 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:30:11 pid:3069 Workerman[http.php] reload 
+2021-01-19 08:30:11 pid:3056 Workerman[http.php] reloading
+2021-01-19 08:43:43 pid:3056 Workerman[http.php] stopping ...
+2021-01-19 08:43:43 pid:3056 Workerman[http.php] has been stopped
+2021-01-19 08:43:44 pid:4311 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:43:48 pid:4322 Workerman[http.php] reload 
+2021-01-19 08:43:48 pid:4311 Workerman[http.php] reloading
+2021-01-19 08:44:00 pid:4345 Workerman[http.php] reload 
+2021-01-19 08:44:00 pid:4311 Workerman[http.php] reloading
+2021-01-19 08:44:27 pid:4311 Workerman[http.php] stopping ...
+2021-01-19 08:44:27 pid:4311 Workerman[http.php] has been stopped
+2021-01-19 08:44:28 pid:4395 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:44:32 pid:4406 Workerman[http.php] reload 
+2021-01-19 08:44:32 pid:4395 Workerman[http.php] reloading
+2021-01-19 08:45:23 pid:4395 Workerman[http.php] stopping ...
+2021-01-19 08:45:23 pid:4395 Workerman[http.php] has been stopped
+2021-01-19 08:45:24 pid:4495 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:45:28 pid:4506 Workerman[http.php] reload 
+2021-01-19 08:45:28 pid:4495 Workerman[http.php] reloading
+2021-01-19 08:47:03 pid:4495 Workerman[http.php] stopping ...
+2021-01-19 08:47:03 pid:4495 Workerman[http.php] has been stopped
+2021-01-19 08:47:14 pid:4678 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:47:17 pid:4686 Workerman[http.php] reload 
+2021-01-19 08:47:17 pid:4678 Workerman[http.php] reloading
+2021-01-19 08:52:08 pid:4678 Workerman[http.php] stopping ...
+2021-01-19 08:52:08 pid:4678 Workerman[http.php] has been stopped
+2021-01-19 08:52:09 pid:5143 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:52:14 pid:5157 Workerman[http.php] reload 
+2021-01-19 08:52:14 pid:5143 Workerman[http.php] reloading
+2021-01-19 08:53:26 pid:5143 Workerman[http.php] stopping ...
+2021-01-19 08:53:26 pid:5143 Workerman[http.php] has been stopped
+2021-01-19 08:53:29 pid:5275 Workerman[http.php] start in DEBUG mode
+2021-01-19 08:53:36 pid:5289 Workerman[http.php] reload 
+2021-01-19 08:53:36 pid:5275 Workerman[http.php] reloading
+2021-01-19 09:08:39 pid:5275 Workerman[http.php] stopping ...
+2021-01-19 09:08:39 pid:5275 Workerman[http.php] has been stopped
+2021-01-19 09:08:40 pid:6688 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:08:45 pid:6699 Workerman[http.php] reload 
+2021-01-19 09:08:45 pid:6688 Workerman[http.php] reloading
+2021-01-19 09:08:56 pid:6722 Workerman[http.php] reload 
+2021-01-19 09:08:56 pid:6688 Workerman[http.php] reloading
+2021-01-19 09:09:12 pid:6688 Workerman[http.php] stopping ...
+2021-01-19 09:09:12 pid:6688 Workerman[http.php] has been stopped
+2021-01-19 09:09:13 pid:6752 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:09:19 pid:6766 Workerman[http.php] reload 
+2021-01-19 09:09:19 pid:6752 Workerman[http.php] reloading
+2021-01-19 09:16:27 pid:6752 Workerman[http.php] stopping ...
+2021-01-19 09:16:27 pid:6752 Workerman[http.php] has been stopped
+2021-01-19 09:16:28 pid:7425 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:16:32 pid:7437 Workerman[http.php] reload 
+2021-01-19 09:16:32 pid:7425 Workerman[http.php] reloading
+2021-01-19 09:16:59 pid:7425 Workerman[http.php] stopping ...
+2021-01-19 09:16:59 pid:7425 Workerman[http.php] has been stopped
+2021-01-19 09:17:01 pid:7486 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:17:04 pid:7500 Workerman[http.php] reload 
+2021-01-19 09:17:04 pid:7486 Workerman[http.php] reloading
+2021-01-19 09:18:03 pid:7486 Workerman[http.php] stopping ...
+2021-01-19 09:18:03 pid:7486 Workerman[http.php] has been stopped
+2021-01-19 09:27:08 pid:8419 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:27:12 pid:8433 Workerman[http.php] reload 
+2021-01-19 09:27:12 pid:8419 Workerman[http.php] reloading
+2021-01-19 09:34:03 pid:8419 Workerman[http.php] stopping ...
+2021-01-19 09:34:03 pid:8419 Workerman[http.php] has been stopped
+2021-01-19 09:34:05 pid:9067 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:34:09 pid:9078 Workerman[http.php] reload 
+2021-01-19 09:34:09 pid:9067 Workerman[http.php] reloading
+2021-01-19 09:36:48 pid:9067 Workerman[http.php] stopping ...
+2021-01-19 09:36:48 pid:9067 Workerman[http.php] has been stopped
+2021-01-19 09:36:49 pid:9330 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:36:53 pid:9341 Workerman[http.php] reload 
+2021-01-19 09:36:53 pid:9330 Workerman[http.php] reloading
+2021-01-19 09:37:36 pid:9330 Workerman[http.php] stopping ...
+2021-01-19 09:37:36 pid:9330 Workerman[http.php] has been stopped
+2021-01-19 09:37:37 pid:9415 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:37:41 pid:9426 Workerman[http.php] reload 
+2021-01-19 09:37:41 pid:9415 Workerman[http.php] reloading
+2021-01-19 09:44:51 pid:9415 Workerman[http.php] stopping ...
+2021-01-19 09:44:51 pid:9415 Workerman[http.php] has been stopped
+2021-01-19 09:44:52 pid:10082 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:44:56 pid:10093 Workerman[http.php] reload 
+2021-01-19 09:44:56 pid:10082 Workerman[http.php] reloading
+2021-01-19 09:45:40 pid:10082 Workerman[http.php] stopping ...
+2021-01-19 09:45:40 pid:10082 Workerman[http.php] has been stopped
+2021-01-19 09:46:12 pid:10217 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:46:20 pid:10217 Workerman[http.php] stopping ...
+2021-01-19 09:46:20 pid:10217 Workerman[http.php] has been stopped
+2021-01-19 09:47:35 pid:10350 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:47:39 pid:10361 Workerman[http.php] reload 
+2021-01-19 09:47:39 pid:10350 Workerman[http.php] reloading
+2021-01-19 09:48:40 pid:10350 Workerman[http.php] stopping ...
+2021-01-19 09:48:40 pid:10350 Workerman[http.php] has been stopped
+2021-01-19 09:48:41 pid:10464 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:48:45 pid:10475 Workerman[http.php] reload 
+2021-01-19 09:48:45 pid:10464 Workerman[http.php] reloading
+2021-01-19 09:49:31 pid:10464 Workerman[http.php] stopping ...
+2021-01-19 09:49:31 pid:10464 Workerman[http.php] has been stopped
+2021-01-19 09:49:33 pid:10562 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:49:36 pid:10570 Workerman[http.php] reload 
+2021-01-19 09:49:36 pid:10562 Workerman[http.php] reloading
+2021-01-19 09:49:38 pid:10562 worker[none:10563] exit with status 9
+2021-01-19 09:49:40 pid:10562 worker[none:10564] exit with status 9
+2021-01-19 09:49:42 pid:10562 worker[none:10565] exit with status 9
+2021-01-19 09:49:44 pid:10562 worker[none:10566] exit with status 9
+2021-01-19 09:50:28 pid:10562 Workerman[http.php] stopping ...
+2021-01-19 09:50:28 pid:10562 Workerman[http.php] has been stopped
+2021-01-19 09:50:29 pid:10663 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:50:34 pid:10674 Workerman[http.php] reload 
+2021-01-19 09:50:34 pid:10663 Workerman[http.php] reloading
+2021-01-19 09:53:16 pid:10663 Workerman[http.php] stopping ...
+2021-01-19 09:53:16 pid:10663 Workerman[http.php] has been stopped
+2021-01-19 09:53:21 pid:10937 Workerman[http.php] start in DEBUG mode
+2021-01-19 09:53:25 pid:10948 Workerman[http.php] reload 
+2021-01-19 09:53:25 pid:10937 Workerman[http.php] reloading
+2021-01-19 09:53:30 pid:10937 Workerman[http.php] stopping ...
+2021-01-19 09:53:30 pid:10937 Workerman[http.php] has been stopped
+2021-01-20 02:51:27 pid:11650 Workerman[http.php] start in DEBUG mode
+2021-01-20 02:51:47 pid:11697 Workerman[http.php] reload 
+2021-01-20 02:51:47 pid:11650 Workerman[http.php] reloading
+2021-01-20 02:53:37 pid:11650 Workerman[http.php] stopping ...
+2021-01-20 02:53:37 pid:11650 Workerman[http.php] has been stopped
+2021-01-20 02:53:38 pid:11878 Workerman[http.php] start in DEBUG mode
+2021-01-20 02:53:59 pid:11913 Workerman[http.php] reload 
+2021-01-20 02:53:59 pid:11878 Workerman[http.php] reloading
+2021-01-20 02:59:49 pid:11878 Workerman[http.php] stopping ...
+2021-01-20 02:59:49 pid:11878 Workerman[http.php] has been stopped
+2021-01-20 02:59:50 pid:12453 Workerman[http.php] start in DEBUG mode
+2021-01-20 02:59:54 pid:12464 Workerman[http.php] reload 
+2021-01-20 02:59:54 pid:12453 Workerman[http.php] reloading
+2021-01-20 03:00:28 pid:12453 Workerman[http.php] stopping ...
+2021-01-20 03:00:28 pid:12453 Workerman[http.php] has been stopped
+2021-01-20 03:00:30 pid:12527 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:00:34 pid:12538 Workerman[http.php] reload 
+2021-01-20 03:00:34 pid:12527 Workerman[http.php] reloading
+2021-01-20 03:01:10 pid:12527 Workerman[http.php] stopping ...
+2021-01-20 03:01:10 pid:12527 Workerman[http.php] has been stopped
+2021-01-20 03:01:11 pid:12598 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:01:15 pid:12609 Workerman[http.php] reload 
+2021-01-20 03:01:15 pid:12598 Workerman[http.php] reloading
+2021-01-20 03:02:56 pid:12598 Workerman[http.php] stopping ...
+2021-01-20 03:02:56 pid:12598 Workerman[http.php] has been stopped
+2021-01-20 03:02:57 pid:12770 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:03:04 pid:12788 Workerman[http.php] reload 
+2021-01-20 03:03:04 pid:12770 Workerman[http.php] reloading
+2021-01-20 03:03:17 pid:12770 Workerman[http.php] stopping ...
+2021-01-20 03:03:17 pid:12770 Workerman[http.php] has been stopped
+2021-01-20 03:03:18 pid:12812 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:03:22 pid:12823 Workerman[http.php] reload 
+2021-01-20 03:03:22 pid:12812 Workerman[http.php] reloading
+2021-01-20 03:10:20 pid:12812 Workerman[http.php] stopping ...
+2021-01-20 03:10:20 pid:12812 Workerman[http.php] has been stopped
+2021-01-20 03:10:22 pid:13468 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:10:26 pid:13479 Workerman[http.php] reload 
+2021-01-20 03:10:26 pid:13468 Workerman[http.php] reloading
+2021-01-20 03:23:51 pid:13468 Workerman[http.php] stopping ...
+2021-01-20 03:23:51 pid:13468 Workerman[http.php] has been stopped
+2021-01-20 03:24:13 pid:14743 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:24:18 pid:14754 Workerman[http.php] reload 
+2021-01-20 03:24:18 pid:14743 Workerman[http.php] reloading
+2021-01-20 03:24:42 pid:14743 Workerman[http.php] stopping ...
+2021-01-20 03:24:42 pid:14743 Workerman[http.php] has been stopped
+2021-01-20 03:24:43 pid:14800 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:24:50 pid:14814 Workerman[http.php] reload 
+2021-01-20 03:24:50 pid:14800 Workerman[http.php] reloading
+2021-01-20 03:32:08 pid:14800 Workerman[http.php] stopping ...
+2021-01-20 03:32:08 pid:14800 Workerman[http.php] has been stopped
+2021-01-20 03:32:09 pid:15490 Workerman[http.php] start in DEBUG mode
+2021-01-20 03:32:14 pid:15501 Workerman[http.php] reload 
+2021-01-20 03:32:14 pid:15490 Workerman[http.php] reloading
+2021-01-20 05:31:08 pid:15490 Workerman[http.php] stopping ...
+2021-01-20 05:31:08 pid:15490 Workerman[http.php] has been stopped
+2021-01-27 04:42:26 pid:10851 Workerman[http.php] start in DEBUG mode
+2021-01-27 04:50:51 pid:10851 Workerman[http.php] stopping ...
+2021-01-27 04:50:51 pid:10851 Workerman[http.php] has been stopped
+2021-01-27 04:50:52 pid:11638 Workerman[http.php] start in DEBUG mode
+2021-01-27 04:52:44 pid:11638 Workerman[http.php] stopping ...
+2021-01-27 04:52:44 pid:11638 Workerman[http.php] has been stopped
+2021-01-27 04:54:33 pid:11984 Workerman[ws.php] start in DEBUG mode
+2021-01-27 04:54:40 pid:11984 Workerman[ws.php] stopping ...
+2021-01-27 04:54:40 pid:11984 Workerman[ws.php] has been stopped
+2021-01-27 05:01:32 pid:12632 Workerman[ws.php] start in DEBUG mode
+2021-01-27 05:06:47 pid:12632 Workerman[ws.php] stopping ...
+2021-01-27 05:06:48 pid:12632 Workerman[ws.php] has been stopped
+2021-01-27 05:09:33 pid:13383 Workerman[tcp.php] start in DEBUG mode
+2021-01-27 05:12:29 pid:13383 Workerman[tcp.php] stopping ...
+2021-01-27 05:12:29 pid:13383 Workerman[tcp.php] has been stopped
+2021-01-27 05:18:40 pid:14258 Workerman[http.php] start in DEBUG mode
+2021-01-27 05:18:42 pid:14258 Workerman[http.php] stopping ...
+2021-01-27 05:18:42 pid:14258 Workerman[http.php] has been stopped
+2021-01-27 05:28:37 pid:15198 Workerman[http.php] start in DEBUG mode
+2021-01-27 05:29:13 pid:15198 Workerman[http.php] stopping ...
+2021-01-27 05:29:13 pid:15198 Workerman[http.php] has been stopped
+2021-01-27 05:37:46 pid:16044 Workerman[http.php] start in DEBUG mode
+2021-01-27 05:37:51 pid:16044 Workerman[http.php] stopping ...
+2021-01-27 05:37:51 pid:16044 Workerman[http.php] has been stopped
+2021-01-27 06:06:05 pid:18647 Workerman[http.php] start in DEBUG mode
+2021-01-27 07:49:42 pid:18647 Workerman[http.php] stopping ...
+2021-01-27 07:49:42 pid:18647 Workerman[http.php] has been stopped
