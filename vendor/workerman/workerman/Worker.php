@@ -536,10 +536,15 @@ class Worker
     {
         //检查当前项目运行的环境
         static::checkSapiEnv();
+        //生成日志文件 开启定时器 time
         static::init();
+        //解析cli 命令
         static::parseCommand();
+        //守护进程
         static::daemonize();
+        //获取程序执行的用户  程序启动ui的显示
         static::initWorkers();
+        //信号注册
         static::installSignal();
         static::saveMasterPid();
         static::displayUI();
@@ -599,7 +604,7 @@ class Worker
         }
 
         // State.
-        static::$_status = static::STATUS_STARTING;
+        static::$_status = static::STATUS_STARTING;//设置当前状态为开始状态
 
         // For statistics.
         static::$_globalStatistics['start_timestamp'] = \time();
@@ -609,7 +614,7 @@ class Worker
         static::setProcessTitle(static::$processTitle . ': master process  start_file=' . static::$_startFile);
 
         // Init data for worker id.
-        //下面是初始化worker_id 存放的数组 static::$_idMap
+        //下面是初始化worker_id 存放的数组 static::$_idMap 这是存放子进程PID的数组
         static::initId();
 
         //这个应该是注册计时器  核心函数是pcntl_alram
@@ -659,7 +664,7 @@ class Worker
             }
 
             // Get unix user of the worker process.
-            
+            //获取运行该程序的用户
             if (empty($worker->user)) {
                 $worker->user = static::getCurrentUser();
             } else {
@@ -673,6 +678,7 @@ class Worker
 
             // Status name.
             $worker->status = '<g> [OK] </g>';
+
             // Get column mapping for UI
             foreach(static::getUiColumns() as $column_name => $prop){
                 !isset($worker->{$prop}) && $worker->{$prop} = 'NNNN';
@@ -753,6 +759,8 @@ class Worker
      */
     protected static function getCurrentUser()
     {
+        //posix_getuid 返回当前进程的有效用户ID
+        //posix_getpwuid 返回给定用户ID引用的用户的信息数组。
         $user_info = \posix_getpwuid(\posix_getuid());
         return $user_info['name'];
     }
@@ -908,7 +916,7 @@ class Worker
         $mode_str = '';
         if ($command === 'start') {
             if ($mode === '-d' || static::$daemonize) {
-                $mode_str = 'in DAEMON mode';
+                $mode_str = 'in DAEMON mode'; //此时是守护进程的模式
             } else {
                 $mode_str = 'in DEBUG mode';
             }
@@ -917,6 +925,7 @@ class Worker
 
         // Get master process PID.
         $master_pid      = \is_file(static::$pidFile) ? \file_get_contents(static::$pidFile) : 0;
+        //\posix_kill($master_pid, 0) 这个第二个参数为0 判断该主进程是否存在
         $master_is_alive = $master_pid && \posix_kill($master_pid, 0) && \posix_getpid() !== $master_pid;
         // Master is still alive?
         if ($master_is_alive) {
@@ -1152,19 +1161,20 @@ class Worker
         }
         $signalHandler = '\Workerman\Worker::signalHandler';
         // uninstall stop signal handler
-        \pcntl_signal(\SIGINT, \SIG_IGN, false);
+        \pcntl_signal(\SIGINT, \SIG_IGN, false); //SIGINT 2 程序终止的信号 一般用户通过ctrl+c 时候发出
         // uninstall stop signal handler
-        \pcntl_signal(\SIGTERM, \SIG_IGN, false);
+        \pcntl_signal(\SIGTERM, \SIG_IGN, false); //SIGTERM 15 程序结束(terminate)信号, 与SIGKILL不同的是该信号可以被阻塞和处理。通常用来要求程序自己正常退出，shell命令kill缺省产生这个信号。如果进程终止不了，我们才会尝试SIGKILL。
         // uninstall graceful stop signal handler
-        \pcntl_signal(\SIGHUP, \SIG_IGN, false);
+        \pcntl_signal(\SIGHUP, \SIG_IGN, false);//SIGHUP 1 本信号在用户终端连接(正常或非正常)结束时发出, 通常是在终端的控制进程结束时, 通知同一session内的各个作业, 这时它们与控制终端不再关联
         // uninstall reload signal handler
-        \pcntl_signal(\SIGUSR1, \SIG_IGN, false);
+        \pcntl_signal(\SIGUSR1, \SIG_IGN, false);//SIGUSR1  10 留个用户自己使用
         // uninstall graceful reload signal handler
-        \pcntl_signal(\SIGQUIT, \SIG_IGN, false);
+        \pcntl_signal(\SIGQUIT, \SIG_IGN, false);// SIGQUIT 3 和SIGINT类似, 但由QUIT字符(通常是Ctrl-)来控制. 进程在因收到SIGQUIT退出时会产生core文件, 在这个意义上类似于一个程序错误信号
         // uninstall status signal handler
-        \pcntl_signal(\SIGUSR2, \SIG_IGN, false);
+        \pcntl_signal(\SIGUSR2, \SIG_IGN, false);//SIGUSR2 12 留给用户自己使用
         // uninstall connections status signal handler
-        \pcntl_signal(\SIGIO, \SIG_IGN, false);
+        \pcntl_signal(\SIGIO, \SIG_IGN, false); // SIGIO 29 文件描述符准备就绪, 可以开始进行输入/输出操作.
+
         // reinstall stop signal handler
         static::$globalEvent->add(\SIGINT, EventInterface::EV_SIGNAL, $signalHandler);
         // reinstall graceful stop signal handler
@@ -1226,16 +1236,21 @@ class Worker
         if (!static::$daemonize || static::$_OS !== \OS_TYPE_LINUX) {
             return;
         }
-        \umask(0);
-        $pid = \pcntl_fork();
+        //
+        \umask(0);//给后面的代码调用函数mkdir给出最大的权限，避免了创建目录或文件的权限不确定性。
+        $pid = \pcntl_fork();//创建新的子进程
         if (-1 === $pid) {
             throw new Exception('Fork fail');
         } elseif ($pid > 0) {
+            //结束父进程
             exit(0);
         }
+        // 在调用了posix_setsid后自己新建了一个进程组且自己为组长进程、自己新建了一个会话组且自己为会话组长、自己脱离了控制终端且由于父进程已经exit退出所以由1号进程即init进程收养。
+        //ps -eo pid,ppid,pgid,sid,command | grep php 可以查看组成和会话进程id已经改变
         if (-1 === \posix_setsid()) {
             throw new Exception("Setsid fail");
         }
+        //
         // Fork again avoid SVR4 system regain the control of terminal.
         $pid = \pcntl_fork();
         if (-1 === $pid) {
@@ -2250,7 +2265,6 @@ class Worker
 
         // Autoload.
         Autoloader::setRootPath($this->_autoloadRootPath);
-
         if (!$this->_mainSocket) {
 
             $local_socket = $this->parseSocketAddress();
